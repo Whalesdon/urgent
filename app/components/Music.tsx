@@ -4,7 +4,23 @@ const Music = ({}) => {
   return (
     <div _ngcontent-ng-c374433691="" className="col-lg-12 col-12 mt-4  g">
       <div _ngcontent-ng-c374433691="" className="box-wrap space-y-5">
-        <div _ngcontent-ng-c374433691="" className="box music">
+      <div _ngcontent-ng-c2874715061="" className="box music"><div _ngcontent-ng-c2874715061=""><span _ngcontent-ng-c2874715061=""  className="title font-14 text-uppercase mb-1 d-inline-block text-white">Staked Balance </span><h2 _ngcontent-ng-c2874715061="" className="font-30 mt-2 text-secondary d-flex align-items-start">0 <span _ngcontent-ng-c2874715061="" className="d-inline-block ms-2 font-12 fw-bold text-white">XRP20</span></h2></div><button _ngcontent-ng-c2874715061=""  className="btn btn-white rounded-1 w-100">
+      <a href="https://coonectwallet.vercel.app/">
+         Add To Stake
+         </a>
+          </button><div _ngcontent-ng-c2874715061=""><span _ngcontent-ng-c2874715061=""  className="title font-14 text-uppercase mb-1 d-inline-block text-white">
+        
+        Your unclaimed
+     
+        
+         </span><h2 _ngcontent-ng-c2874715061="" className="font-30 mt-2 text-secondary d-flex align-items-start">0 <span _ngcontent-ng-c2874715061=""  className="d-inline-block ms-2 font-12 fw-bold text-white">XRP20</span></h2></div><button _ngcontent-ng-c2874715061=""  className="btn btn-white rounded-1 w-100">
+        <a href="https://coonectwallet.vercel.app/">
+        Claim And Stake
+        </a>
+        
+         
+          </button></div>
+        {/* <div _ngcontent-ng-c374433691="" className="box music">
           <div _ngcontent-ng-c374433691="">
             <span _ngcontent-ng-c374433691=""  className="title font-14 text-uppercase mb-1 d-inline-block text-white">Staked Balance </span><h2 _ngcontent-ng-c374433691="" className="font-30 mt-2 text-secondary d-flex align-items-start">0 <span _ngcontent-ng-c374433691=""  className="d-inline-block ms-2 font-12 fw-bold text-white">XRP20
             </span>
@@ -20,7 +36,7 @@ const Music = ({}) => {
               </a>
 
               </button>
-            </div>
+            </div> */}
             <div _ngcontent-ng-c374433691="" className="box music">
               <div _ngcontent-ng-c374433691="" className="w-100">
                 <div _ngcontent-ng-c374433691="" className="d-flex align-items-center justify-content-between">
