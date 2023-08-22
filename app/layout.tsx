@@ -2,11 +2,11 @@ import "./globals.css";
 import { Inter, Red_Rose } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-const rose = Red_Rose({subsets:["latin"]})
+
 
 export const metadata = {
-  title: "Gala",
-  description: "",
+  title: "XPR20",
+  description: "But Low Stake to Earn",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={rose.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
