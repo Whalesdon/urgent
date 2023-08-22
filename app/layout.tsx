@@ -1,7 +1,8 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Red_Rose } from "next/font/google";
 
-
+const inter = Inter({ subsets: ["latin"] });
+const rose = Red_Rose({subsets:["latin"]})
 
 export const metadata = {
   title: "Gala",
@@ -15,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body className={rose.className}>{children}</body>
     </html>
   );
 }
